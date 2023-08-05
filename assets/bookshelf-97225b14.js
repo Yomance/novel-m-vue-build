@@ -1,0 +1,1 @@
+import{h as s}from"./index-2f1714f2.js";const t=()=>s.get("/bookshelf/listShelf"),h=o=>s.post("/bookshelf/removeShelf",o),l=o=>s.post("/bookshelf/addShelf",o),f=()=>s.get("/bookshelf/history"),r=o=>s.post("/bookshelf/delHistory",o);export{l as a,r as d,t as g,f as h,h as r};

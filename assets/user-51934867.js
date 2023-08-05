@@ -1,0 +1,1 @@
+import{h as e}from"./index-2f1714f2.js";const s=a=>{const t=new FormData;return console.log(a),t.append("file",a),e.post("/user/avatar",t,{headers:{"Content-Type":"multipart/form-data"}})},o=a=>e.post("/user/rename",a),n=()=>e.get("/user/renameState"),d=()=>e.post("/user/add/readTime");export{d as a,o as b,n as r,s as u};
