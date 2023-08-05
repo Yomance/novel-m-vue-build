@@ -1,0 +1,1 @@
+import{z as r}from"./index-b21a5062.js";const o=(e,a)=>{if(!e){console.error("书籍id不能为空");return}r.push({name:"Read",query:{bid:e,cid:a},params:{bid:e,cid:a}})},s=(e=!1)=>e?r.replace({name:"ToAuthorDetail"}):r.push({name:"ToAuthorDetail"}),n=()=>r.push({name:"Search"});export{o as a,s as b,n as t};
